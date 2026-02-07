@@ -1,0 +1,16 @@
+[
+    {"title": "Disaster Insurance",
+    "effect": "Avoid Disaster",
+    "amount": 4
+    },
+    {"title": "Score Swapper",
+    "effect": "Swap Lowest and Highest Scores",
+    "amount": 4
+    },
+    {"title": "Score Sapper",
+    "effect": "Reduce Target Player Score By 2",
+    "amount": 4},
+    {"title": "Score Adder",
+    "effect": "Add Target Player Score By 2",
+    "amount": 4}
+]

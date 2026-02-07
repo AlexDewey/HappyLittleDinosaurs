@@ -1,0 +1,94 @@
+Every player gets 5 cards at the top of the round.
+Every player must get to 50 points, or be the last surviving.
+Players are eliminated if they have 3 or more of a given disaster type.
+Disaster types: Natural, Predatory, Emotional.
+Meteor disaster cards work towards the count of each type.
+
+Players:
+Nervous Rex: +1 Predatory, -1 Emotional
+Bad Luck Bronto: +1 Natural, -1 Predatory
+Cry Ceratops: +1 Emotional, -1 Natural
+Stego: +1 Meteor
+
+
+
+Four 0s (All effects)
+Six 1s (2 effects)
+Six 2s (2 effects)
+Six 3s (2 effects)
+Six 4s (2 effects)
+Six 5s (2 effects)
+Six 6s (2 effects)
+Five 7s (2 effects)
+Four 8s (1 effect)
+Four 9s (1 effect)
+
+
+
+16 instants, 4 of each type
+Distaster Insurance
+Score Sapper (2)
+Score Booster (2)
+Score Inversion (Switch the score of the highest and lowest)
+
+
+Points: Effect
+1: You may look at another player's hand. Choose a card to add to your hand
+2: You may swap this card with the Point card of another player. Cannot swap with cards with no effect.
+3: You may discard a point card with an effect, add its point value to your score this round
+4: You may discard up to 3 cards from your hand
+5: During the scoring round, switch the score of the highest scoring and the lowest scoring
+6: During scoring this round, double the effects of score booster and score sapper cards
+7: You may look at the top 2 cards in the deck. Choose a card and add it to your hand. Discard the other.
+8: You may swap the Point cards of any two players.
+9: During this round, all other point card effects are ignored
+0: You may discard a point card from your hand, then add its point value to your score this round
+
+
+
+----------------
+Psuedocode:
+----------------
+
+
+Refill Player Hands() Loop:
+Fill player hands from deck one at a time, if deck empty, shuffle discard pile.
+Check to see if a player only has instant cards, they must empty their hand and redraw.
+
+
+Game Start
+
+Select number of players
+Enter player names
+
+Game Loop:
+
+Refill Player Hands()
+
+Show disaster.
+
+Have each player play a point card sequentially.
+
+Have all cards revealed.
+
+Starting from the lowest scoring, have effect cards take place.
+
+Go around to each person asking for instant cards, starting with lowest point person.
+If someone during the loop plays an instant card, loop again through all people at the end of the first loop until all players from least points to most are cycled through.
+
+See who has the lowest, if two or more, enter sudden death loop.
+Have each player play a point card sequentially.
+If no point cards exist for all sudden death players, no one loses and there's no disaster.
+Have all players with point cards play a card.
+If there's a tie, repeat until they either have no point cards or there is no tie.
+
+Award the disaster card. Wait for the player to except, or to use an instant card to be safe.
+
+Winners may tie and be awarded the same points.
+
+Winners move up points by their point card.
+All players move up points by their disaster cards held.
+
+Check to eliminate players.
+Check to see if there's a winner.
+

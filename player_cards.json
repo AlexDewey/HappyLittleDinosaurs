@@ -1,0 +1,97 @@
+[
+    {"title": "Pet Rock",
+    "points": 0,
+    "effect": "Add Optional Point Card",
+    "amount": 4
+    },
+    {"title": "Dino Grabber",
+    "points": 1,
+    "effect": "Choose A Player, Steal A Card",
+    "amount": 2
+    },
+    {"title": "Grappling Snake",
+    "points": 2,
+    "effect": "May Swap Scores With A Player's Effect Card",
+    "amount": 2
+    },
+    {"title": "Delicious Smoothie",
+    "points": 3,
+    "effect": "May Discard A Point Card With An Effect, Add Point Value",
+    "amount": 2
+    },
+    {"title": "Fire Spray",
+    "points": 4,
+    "effect": "May Discard Up To 3 Cards",
+    "amount": 2
+    },
+    {"title": "Mouth Trap",
+    "points": 5,
+    "effect": "Swap Highest And Lowest Score",
+    "amount": 2
+    },
+    {"title": "Special Star Fruit",
+    "points": 6,
+    "effect": "Double The Effects Of Boosters and Sappers",
+    "amount": 2
+    },
+    {"title": "Treenoculars",
+    "points": 7,
+    "effect": "May Look At Top 2 Cards, Choose Card To Add",
+    "amount": 2
+    },
+    {"title": "Hungry Plant",
+    "points": 8,
+    "effect": "Swap Point Cards Of Two Players",
+    "amount": 1
+    },
+    {"title": "Flaming Chainsaw",
+    "points": 9,
+    "effect": "All Point Card Effects Are Ignored",
+    "amount": 1
+    },
+    {"title": "Tiny Stick",
+    "points": 1,
+    "effect": "None",
+    "amount": 4
+    },
+    {"title": "Stronger Stick",
+    "points": 2,
+    "effect": "None",
+    "amount": 4
+    },
+    {"title": "Rigid Rock",
+    "points": 3,
+    "effect": "None",
+    "amount": 4
+    },
+    {"title": "Spear",
+    "points": 4,
+    "effect": "None",
+    "amount": 4
+    },
+    {"title": "Metal Bat",
+    "points": 5,
+    "effect": "None",
+    "amount": 4
+    },
+    {"title": "Spiky Bat",
+    "points": 6,
+    "effect": "None",
+    "amount": 4
+    },
+    {"title": "Cannon",
+    "points": 7,
+    "effect": "None",
+    "amount": 3
+    },
+    {"title": "Bazooka",
+    "points": 8,
+    "effect": "None",
+    "amount": 1
+    },
+    {"title": "Bigger Bazooka",
+    "points": 9,
+    "effect": "None",
+    "amount": 1
+    }
+]
